@@ -1,5 +1,12 @@
 import streamlit as st
+import jotlib
 
-st.title('Dermatology Machine Learning')
+def main():
+  st.title('Dermatology Machine Learning')
+  st.info('This app using machine learning')
 
-st.info('This app using machine learning')
+  #input data by user
+  erythema = st.slider('Erythema', min_value=0, max_value=3, value=2)
+
+if __name__ == "__main__":
+  main()
