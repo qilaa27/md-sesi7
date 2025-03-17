@@ -1,5 +1,5 @@
 streamlit
 numpy
 pandas
-jotlib
 scikit-learn
+jotlib
